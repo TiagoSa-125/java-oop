@@ -3,10 +3,12 @@ public class Viatura {
     private int nRodas;
     private int veloMax;
 
-
     
 
     public Viatura() {
+        this.tipoCarro = "";
+        this.nRodas = 0;
+        this.veloMax = 0;
     }
 
     

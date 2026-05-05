@@ -2,11 +2,11 @@ public class App {
     public static void main(String[] args) throws Exception {
         
 
-        Viatura carro = new Viatura();
+        Barco carro = new Barco();
 
-        carro.setTipoCarro("Carro Desportivo");
+        /*carro.setTipoCarro("Barco Desportivo");
         carro.setnRodas(6);
-        carro.setVeloMax(350);
+        carro.setVeloMax(350);*/
 
         carro.mostraInfo();
     }
