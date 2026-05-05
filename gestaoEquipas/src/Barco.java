@@ -15,11 +15,12 @@ public class Barco extends Viatura {
     @Override
     public void mostraInfo(){
         System.out.println("Vou mostrar a info do barco: ");
-        System.out.println("\n  Tipo de carro: "+getTipoCarro() + "\n  Nº rodas: "+ getnRodas() + "\n  Velocidade Maxima: "+ getVeloMax());
+        System.out.println("\n  Tipo de barco: "+getTipoCarro() + "\n  Nº rodas: "+ getnRodas() + "\n  Velocidade Maxima: "+ getVeloMax());
         if(temPiscina){
-            System.out.println("Temp piscina");
+            System.out.println("Tem piscina");
         }else{ 
             System.out.println("Não tem Piscina");
         }
+        
     }
 }
